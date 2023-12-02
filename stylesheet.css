@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,200;0,400;0,600;0,700;0,800;1,200;1,400;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+:root{
+    --font-size: 22px;
+    --line-height: 38px;
+}
+
+body {
+    /* font-family: 'Hanken Grotesk', sans-serif; */
+    font-family: 'Space Grotesk', sans-serif;
+    color: #202020;
+}
+
+main {
+    max-width: 70vw;
+    margin: auto;
+    padding: 20px;
+    margin-top: 15%;
+}
+
+h1 {
+    font-size: calc(3* var(--font-size));
+    line-height: calc(2* var(--line-height));
+    margin-bottom: var(--line-height);
+    font-weight: 800;
+}
+
+p { 
+    font-size: var(--font-size);
+    line-height: var(--line-height);
+}
+
+nav {
+    color: rgb(228, 42, 29);
+}
+
+
+/*========================================== Nav Bar ==========================================*/
+
+.top {
+    display: flex;
+    position: fixed;
+    width: 100vw;
+    top: 0px;
+    padding: 20px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-1 {
+    position: fixed;
+    left: -160px;
+    bottom: 30%;
+    text-align: left;
+    transform: rotate(-90deg);
+}
+
+.right-2 {
+    position: fixed;
+    right: -20px;
+    bottom: 20%;
+    text-align: left;
+    transform: rotate(-90deg);
+}
+
+/*========================================== body ==========================================*/
+
+.paragraph {
+    display: flex;
+    flex: 1;
+}
+
+.article {
+    flex: 1;
+    order: 1;
+  }
+
+.article p {
+    max-width: 90%;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.reference {
+    flex: 0 0 20vw;
+    order: 2;
+  }
+
+
+.reference-person {
+    color: rgb(167, 167, 167);
+}
+
+.reference-person p:hover{
+    color:#202020;
+}
+
+.reference-person p:hover + .original-text{
+    display: block;
+    color: rgb(228, 42, 29);
+}
+
+.original-text {
+    display: none;
+    font-family: 'Hanken Grotesk', sans-serif;
+    color: #202020;
+    font-size: calc(.8* var(--font-size));
+    line-height: calc(.8* var(--line-height));
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+
+
+
+
+
+
+
