@@ -29,9 +29,13 @@ h1 {
     font-weight: 800;
 }
 
-p { 
+p, li { 
     font-size: var(--font-size);
     line-height: var(--line-height);
+}
+
+ul {
+    padding-right: 50px;
 }
 
 nav {
@@ -45,6 +49,23 @@ nav p:hover{
     transition: color 0.3s ease;    
 }
 
+.about p{
+    margin-bottom: var(--line-height);
+    width: 70ch;
+}
+
+.secondary {
+    color: rgb(167, 167, 167);
+    margin-bottom: 500px;
+}
+
+.credits {
+    display: flex;
+}
+
+.credits p {
+    margin-bottom: 5px;
+}
 
 
 /*========================================== Nav Bar ==========================================*/
