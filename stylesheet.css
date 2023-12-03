@@ -185,6 +185,18 @@ nav p:hover{
 
 @media (max-width: 580px) {
 
+    :root{
+        --font-size: 20px;
+        --line-height: 26px;
+    }
+
+    main {
+        max-width: 95vw;
+        margin: auto;
+        padding: 28px;
+        margin-top: 100px;
+    }
+
     .top {
         flex-direction: column;
     }
@@ -193,7 +205,7 @@ nav p:hover{
         position: fixed;
         text-align: left;
         top: 84px;
-        left: -40px;
+        left: -52px;
         transform: rotate(-90deg);
     }
 
@@ -201,8 +213,12 @@ nav p:hover{
         position: fixed;
         text-align: left;
         top: 44px;
-        right: 4px;
+        right: -16px;
         transform: rotate(-90deg);
+    }
+
+    .right-2 {
+        right: -37px;
     }
 }
 
