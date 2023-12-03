@@ -197,6 +197,10 @@ nav p:hover{
         margin-top: 100px;
     }
 
+    h2 {
+        line-height: calc(1.4* var(--line-height));
+    }
+
     .top {
         flex-direction: column;
     }
