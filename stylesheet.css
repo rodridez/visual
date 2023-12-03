@@ -25,7 +25,15 @@ main {
 h1 {
     font-size: calc(3* var(--font-size));
     line-height: calc(2* var(--line-height));
+    margin-bottom: var(--line-height) ;
+    font-weight: 800;
+}
+
+h2 {
+    font-size: calc(2* var(--font-size));
+    line-height: calc(1* var(--line-height));
     margin-bottom: var(--line-height);
+    margin-top: calc(2* var(--line-height));
     font-weight: 800;
 }
 
