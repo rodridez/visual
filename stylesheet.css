@@ -40,9 +40,11 @@ nav {
 
 nav p:hover{
     font-family: 'Tourney', sans-serif;
+    font-size: calc(1.2* var(--font-size));
     font-style: italic;
-    transition: color 0.3s ease;
+    transition: color 0.3s ease;    
 }
+
 
 
 /*========================================== Nav Bar ==========================================*/
@@ -64,6 +66,10 @@ nav p:hover{
     bottom: 30%;
     text-align: left;
     transform: rotate(-90deg);
+}
+
+.left-1 p:hover{
+    margin-left: -100px;
 }
 
 .right-2 {
@@ -97,7 +103,7 @@ nav p:hover{
   }
 
 
-  .reference-person p {
+.reference-person p {
     color: rgb(167, 167, 167);
     text-decoration: underline;
     text-decoration-color: rgb(224, 224, 224);
